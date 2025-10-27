@@ -1,0 +1,18 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Mute the specific logger -->
+    <logger name="org.apache.commons.beanutils.converters.StringConverter" level="OFF" />
+
+    <!-- Or mute the entire package -->
+    <logger name="org.apache.commons.beanutils" level="OFF" />
+
+    <!-- Other configurations go here -->
+    <root level="info">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>

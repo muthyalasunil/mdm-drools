@@ -1,0 +1,101 @@
+[
+    {
+        "_updates": {},
+        "_merges": [],
+        "_matches": [],
+        "vca_EFFECTIVE_DATE": "",
+        "vca_PAYMENT_DATE": "",
+        "vca_T3_STOCK_KEY": "1980",
+        "vca_ANNOUNCEMENT_DATE": "11-08-2024 00:00",
+        "sca_SOURCE_CA_TYPE": "DVCA",
+        "vca_EX_DATE": "3/28/2025 12:00:00 AM",
+        "vca_SOURCE": "EDI",
+        "vca_RECORD_DATE": "",
+        "vca_TICKER": "4116",
+        "sca_SOURCE": "IDC",
+        "vca_MSG_FUNC": "NEWM",
+        "vca_CA_TYPE": "SPDV",
+        "sca_CA_TYPE": "SPDV",
+        "sca_MSG_FUNC": "NEWM",
+        "active": true
+    },
+    {
+        "_updates": {},
+        "_merges": [
+            {
+                "source": "(Six Telekurs) 4116 : SPDV : 9/27/2024 12:00:00 AM : REPL",
+                "timestamp": "2025-10-22T11:04:38.080+00:00"
+            }
+        ],
+        "_matches": [
+            "(Six Telekurs) 4116 : SPDV : 9/27/2024 12:00:00 AM : REPL * 80"
+        ],
+        "vca_EFFECTIVE_DATE": "",
+        "vca_PAYMENT_DATE": "12-06-2024 00:00",
+        "vca_T3_STOCK_KEY": null,
+        "vca_SOURCE_CA_TYPE": "DVCA",
+        "vca_ANNOUNCEMENT_DATE": "",
+        "sca_SOURCE_CA_TYPE": "DVCA",
+        "vca_EX_DATE": "9/27/2024 12:00:00 AM",
+        "vca_SOURCE": "EDI",
+        "vca_RECORD_DATE": "9/30/2024 12:00:00 AM",
+        "vca_TICKER": "4116",
+        "sca_SOURCE": "Six Telekurs",
+        "vca_MSG_FUNC": "REPL",
+        "vca_CA_TYPE": "SPDV",
+        "sca_CA_TYPE": "SPDV",
+        "sca_MSG_FUNC": "REPL",
+        "active": true
+    },
+    {
+        "_updates": {},
+        "_merges": [],
+        "_matches": [
+            "(Six Telekurs) 4116 : DVCA : 9/27/2024 12:00:00 AM : REPL * 50"
+        ],
+        "vca_EFFECTIVE_DATE": "",
+        "vca_PAYMENT_DATE": "",
+        "vca_T3_STOCK_KEY": "1980",
+        "vca_SOURCE_CA_TYPE": "DVCA",
+        "vca_ANNOUNCEMENT_DATE": "11-08-2024 00:00",
+        "sca_SOURCE_CA_TYPE": "DVCA",
+        "vca_EX_DATE": "3/28/2025 12:00:00 AM",
+        "vca_SOURCE": "EDI",
+        "vca_RECORD_DATE": "",
+        "vca_TICKER": "4116",
+        "sca_SOURCE": "IDC",
+        "vca_MSG_FUNC": "REPL",
+        "vca_CA_TYPE": "DVCA",
+        "sca_CA_TYPE": "DVCA",
+        "sca_MSG_FUNC": "REPL",
+        "active": true
+    },
+    {
+        "_updates": {},
+        "_merges": [
+            {
+                "source": "(Six Telekurs) 4116 : DVCA : 9/27/2024 12:00:00 AM : REPL",
+                "timestamp": "2025-10-22T11:04:38.075+00:00"
+            }
+        ],
+        "_matches": [
+            "(Six Telekurs) 4116 : DVCA : 9/27/2024 12:00:00 AM : REPL * 80"
+        ],
+        "vca_EFFECTIVE_DATE": "",
+        "vca_PAYMENT_DATE": "12-06-2024 00:00",
+        "vca_T3_STOCK_KEY": null,
+        "vca_SOURCE_CA_TYPE": "DVCA",
+        "vca_ANNOUNCEMENT_DATE": "",
+        "sca_SOURCE_CA_TYPE": "DVCA",
+        "vca_EX_DATE": "9/27/2024 12:00:00 AM",
+        "vca_SOURCE": "EDI",
+        "vca_RECORD_DATE": "9/30/2024 12:00:00 AM",
+        "vca_TICKER": "4116",
+        "sca_SOURCE": "Six Telekurs",
+        "vca_MSG_FUNC": "REPL",
+        "vca_CA_TYPE": "DVCA",
+        "sca_CA_TYPE": "DVCA",
+        "sca_MSG_FUNC": "REPL",
+        "active": true
+    }
+]
